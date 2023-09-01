@@ -41,9 +41,10 @@ testrecurrsiveFunction(5)
 
 
 def fun():
-   global a
-   a = 10
-   print("a from inside function is :",a)
+    global a
+    a = 10
+    print("a from inside function is :",a)
+
 
 fun()
 print("a from outside function is :",a)
